@@ -1,0 +1,24 @@
+Generated on: 2014-12-12 00:27:37.207052
+
+
+
+** GET /api/users/{user_id}/get_friends_progress
+
+ Number of URL calls 1117, Response time Mean/Avg: 1794.4780662488809ms, Response time Median: 827.5ms, Response time Mode: 131ms, Dyno(s) responded the most: web.5
+
+** GET /api/users/{user_id}/count_pending_messages
+
+ Number of URL calls 2429, Response time Mean/Avg: 602.3322354878551ms, Response time Median: 456.0ms, Response time Mode: 110ms, Dyno(s) responded the most: web.2
+
+** GET /api/users/{user_id}/get_messages
+
+ Number of URL calls 652, Response time Mean/Avg: 1118.138036809816ms, Response time Median: 348ms, Response time Mode: 120ms, Dyno(s) responded the most: web.11
+
+** GET /api/users/{user_id}/get_friends_score
+
+ Number of URL calls 1533, Response time Mean/Avg: 3229.4520547945203ms, Response time Median: 1446ms, Response time Mode: 142ms, Dyno(s) responded the most: web.7
+
+** POST /api/users/{user_id}
+
+ Number of URL calls 2022, Response time Mean/Avg: 1454.4653808110781ms, Response time Median: 817ms, Response time Mode: 119ms, Dyno(s) responded the most: web.11
+
