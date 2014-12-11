@@ -10,12 +10,14 @@ log-analyzer-using-python calculates the following:
 </ul>
 <h3>Defined Endpoints:</h3>
 
-GET /api/users/{user_id}/count_pending_messages <br>
-GET /api/users/{user_id}/get_messages <br>
-GET /api/users/{user_id}/get_friends_progress <br>
-GET /api/users/{user_id}/get_friends_score <br>
-POST /api/users/{user_id} <br>
-GET /api/users/{user_id} <br>
+<ul>
+<li>GET /api/users/{user_id}/count_pending_messages</li>
+<li>GET /api/users/{user_id}/get_messages</li>
+<li>GET /api/users/{user_id}/get_friends_progress</li>
+<li>GET /api/users/{user_id}/get_friends_score</li>
+<li>POST /api/users/{user_id}</li>
+<li>GET /api/users/{user_id}</li>
+</ul>
 
 <h3> How to run:</h3>
 python run.py log-file-path output-file-path generate the data from target file and export the analyst data to the output file.
