@@ -3,11 +3,15 @@ log-analyzer-using-python
 
 log-analyzer-using-python calculates the following:
 
+<pre>
+<code>
 <ul>
 <li>The number of times the URL was called.</li>
 <li>The mean (average), median and mode of the response time (connect time + service time).</li>
 <li>The "dyno" that responded the most.</li>
 </ul>
+</code>
+</pre>
 <h3>Defined Endpoints:</h3>
 
 <ul>
