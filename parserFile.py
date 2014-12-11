@@ -1,5 +1,3 @@
-<pre>
-<code>
 import re
 
 class parser:
@@ -75,6 +73,4 @@ class parser:
             return 1
         else:
             return value + 1
-</code>
-</pre>
 
