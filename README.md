@@ -24,7 +24,7 @@ log-analyzer-using-python calculates the following:
 </code>
 </pre>
 <h3> How to run:</h3>
-python run.py log-file-path output-file-path generate the data from target file and export the analyst data to the output file.
+<pre><code>python run.py log-file-path output-file-path</code></pre> generate the data from target file and export the analyst data to the output file.
 
-python run.py will generate the ouput to report.txt file.
+<pre><code>python run.py</code></pre> will generate the ouput to report.txt file.
 
