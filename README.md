@@ -11,6 +11,7 @@ log-analyzer-using-python calculates the following:
 </ul>
 
 <h3>Defined Endpoints:</h3>
+<pre>
 <code>
 <ul>
 <li>GET /api/users/{user_id}/count_pending_messages</li>
@@ -21,7 +22,7 @@ log-analyzer-using-python calculates the following:
 <li>GET /api/users/{user_id}</li>
 </ul>
 </code>
-
+</pre>
 <h3> How to run:</h3>
 python run.py log-file-path output-file-path generate the data from target file and export the analyst data to the output file.
 
