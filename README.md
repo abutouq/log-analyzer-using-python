@@ -7,9 +7,9 @@ log-analyzer-using-python calculates the following:
 -The mean (average), median and mode of the response time (connect time + service time).
 -The "dyno" that responded the most.
 
-Defined Endpoints:
+<b>Defined Endpoints:<b>
 
-GET /api/users/{user_id}/count_pending_messages
+GET /api/users/{user_id}/count_pending_messages <br>
 GET /api/users/{user_id}/get_messages
 GET /api/users/{user_id}/get_friends_progress
 GET /api/users/{user_id}/get_friends_score
