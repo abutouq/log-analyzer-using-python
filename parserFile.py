@@ -24,6 +24,7 @@ class parser:
         with fobj as lines:
             flines = lines.readlines()
 
+        fobj.close()
         for line in flines:
 
             #Get all matches pattern
@@ -67,10 +68,12 @@ class parser:
                                 self.info[ replaced_url_path ]['dyno'][dyno] = 1
                             elif( dyno in self.info[ replaced_url_path ]['dyno'] ):
                                 self.info[ replaced_url_path ]['dyno'][dyno] = self.counter( self.info[ replaced_url_path ]['dyno'][dyno] )
+        del( gotten_matches )
             
     def counter( self , value ):
         if( value is None ):
             return 1
         else:
             return value + 1
+
 
